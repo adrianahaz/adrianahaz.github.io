@@ -1,8 +1,9 @@
 <script>
+	import { getIcon } from '$lib/data/icons.js';
+
 	import Button from '$lib/components/ui/button/Button.component.svelte';
 	import Icon from '$lib/components/ui/icon/Icon.component.svelte';
-	import Menu from './Menu.component.svelte';
-	import { getIcon } from '$lib/data/icons.js';
+	import Menu from '$lib/components/ui/menu/Menu.component.svelte';
 </script>
 
 <nav>
@@ -16,6 +17,6 @@
 
 		<Menu />
 
-		<Button label="Resume" class="hidden lg:inline-block" />
+		<Button as="a" label="Resume" class="hidden lg:inline-block" />
 	</div>
 </nav>
