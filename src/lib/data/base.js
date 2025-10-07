@@ -1,8 +1,8 @@
 const navItems = [
 	{ label: 'Home', href: '/', icon: 'Home' },
-	{ label: 'About', href: '#about' },
-	{ label: 'Projects', href: '#projects' },
-	{ label: 'Contact me', href: '#contact' }
+	{ label: 'About', href: '#' },
+	{ label: 'Projects', href: '#' },
+	{ label: 'Contact me', href: '#' }
 ];
 
 const marqueeItems = [

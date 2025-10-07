@@ -43,7 +43,7 @@
 			{/each}
 			<hr />
 			<li>
-				<Button as="a" label="Resume" href="/resume.pdf" />
+				<Button as="a" label="Resume" />
 			</li>
 		</div>
 	</div>
