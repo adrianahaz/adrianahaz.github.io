@@ -5,13 +5,8 @@ const navItems = [
 	{ label: 'Contact me', href: '#' }
 ];
 
-const marqueeItems = [
-	{ label: 'JavaScript', href: '#' },
-	{ label: 'Svelte', href: '#' },
-	{ label: 'Node.js', href: '#' },
-	{ label: 'Tailwind', href: '#' }
-];
+const identityItems = [{ label: 'Tech Enthusiast' }, { label: 'Informatics Engineering Student' }];
 
 export const getAllNavItems = () => navItems;
 
-export const getAllMarqueeItems = () => marqueeItems;
+export const getAllIdentityItems = () => identityItems;

@@ -1,6 +1,6 @@
 <script>
 	import Hero from '$lib/components/common/hero/Hero.component.svelte';
-	import Marquee from '$lib/components/ui/marquee/Marquee.component.svelte';
+	import Badge from '$lib/components/ui/badge/Badge.component.svelte';
 </script>
 
 <svelte:head>
@@ -9,5 +9,5 @@
 
 <main>
 	<Hero />
-	<Marquee />
+	<Badge />
 </main>
