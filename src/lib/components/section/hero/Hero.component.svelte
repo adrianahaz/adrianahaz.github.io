@@ -12,7 +12,7 @@
 	></div>
 
 	<div
-		class="md:w-[55%] md:mt-[80px] flex flex-col items-center bg-[#101111] p-[50px] md:p-[40px] gap-5"
+		class="md:w-[55%] md:mt-[80px] flex flex-col items-center bg-[#101111] p-[30px] md:p-[40px] gap-5"
 	>
 		<h1 class="text-2xl md:text-4xl max-w-3xl leading-tight text-center">
 			Hello, I'm Adrian &#128075;

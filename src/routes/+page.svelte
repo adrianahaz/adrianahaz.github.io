@@ -1,5 +1,7 @@
 <script>
-	import Hero from '$lib/components/common/hero/Hero.component.svelte';
+	import { getAllExperience } from '$lib/data/experience.js';
+
+	import Hero from '$lib/components/section/hero/Hero.component.svelte';
 	import Badge from '$lib/components/ui/badge/Badge.component.svelte';
 	import Timeline from '$lib/components/ui/timeline/Timeline.component.svelte';
 
