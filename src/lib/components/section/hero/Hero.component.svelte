@@ -19,7 +19,8 @@
 		</h1>
 
 		<p class=" text-gray-300 max-w-lg text-center">
-			A passionate front-end developer crafting engaging and user-friendly web experiences.
+			Tech enthusiast, lifelong learner, and creative student. I love to explore new technologies
+			and create innovative solutions.
 		</p>
 
 		<Button label="Hire me" />
