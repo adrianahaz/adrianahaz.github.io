@@ -23,7 +23,7 @@
 			and create innovative solutions.
 		</p>
 
-		<Button label="Hire me" />
+		<Button label="Hire me" as="a" href="mailto:adrianalzidan35@gmail.com" />
 	</div>
 </div>
 
