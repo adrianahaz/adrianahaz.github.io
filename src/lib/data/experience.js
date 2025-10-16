@@ -5,7 +5,7 @@ const items = [
 		startDate: '2024-05-01',
 		endDate: null,
 		description:
-			'Worked on developing and maintaining web applications using modern technologies. Collaborated with a team of developers to enhance user experience and implement new features.'
+			'Providing IT support and technical assistance to clients on a freelance basis. Handling various IT-related tasks and projects as needed.'
 	},
 	{
 		company: 'PT. Jaringan Pintar Nusantara',
@@ -29,7 +29,7 @@ const items = [
 		startDate: '2022-06-01',
 		endDate: '2022-08-01',
 		description:
-			'Assisted in various IT projects, including software development and system administration tasks. Gained valuable experience in a professional IT environment.'
+			'Learning how to configure Mikrotik Router, build a website using Mobirise. And set up a local area network (LAN).'
 	}
 ];
 

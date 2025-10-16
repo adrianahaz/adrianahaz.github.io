@@ -1,6 +1,6 @@
 const navItems = [
 	{ label: 'Home', href: '/', icon: 'Home' },
-	{ label: 'About', href: '#' },
+	{ label: 'Blog', href: '#' },
 	{ label: 'Projects', href: '#' },
 	{ label: 'Contact me', href: '#' }
 ];
