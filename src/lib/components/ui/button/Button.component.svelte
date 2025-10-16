@@ -10,7 +10,7 @@
 			: ''} relative rounded-[40px] p-[1px] text-black text-center hover:bg-gradient-to-r from-[#fed39c] to-[#7a87fa]"
 	>
 		<span
-			class="block rounded-[40px] bg-gradient-to-r from-[#7a87fa] to-[#fed39c] px-[20px] py-[14px] font-semibold"
+			class="text-sm block rounded-[40px] bg-gradient-to-r from-[#7a87fa] to-[#fed39c] p-4 md:px-[20px] md:py-[14px] font-semibold"
 		>
 			{props.label}
 		</span>

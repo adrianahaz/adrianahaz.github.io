@@ -15,7 +15,7 @@
 		</p>
 		<div class="mt-10 flex items-center justify-center gap-x-6">
 			<Button as="a" href="/" label="Go back home" />
-			<a href="mailto:adrhmdbusiness@gmail.com" class=" font-semibold text-white"
+			<a href="mailto:adrhmdbusiness@gmail.com" class="text-sm font-semibold text-white"
 				>Contact support <span aria-hidden="true">&rarr;</span></a
 			>
 		</div>
