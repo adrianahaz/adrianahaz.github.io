@@ -24,7 +24,7 @@
 		top: 15px;
 		bottom: 0;
 		width: 2px;
-		height: calc(100% - 200px);
+		height: calc(80%);
 		background: rgba(255, 255, 255, 0.06);
 	}
 </style>

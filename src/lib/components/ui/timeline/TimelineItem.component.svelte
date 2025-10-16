@@ -10,15 +10,15 @@
 			<div class="dot"></div>
 		</div>
 	</div>
-	<div class="mb-6 px-4 rounded-lg shadow w-[500px] flex flex-col gap-3">
+	<div class="mb-6 px-4 rounded-lg shadow md:w-[500px] flex flex-col gap-3">
 		<div>
-			<h2 class="text-xl font-semibold">{role} — {company}</h2>
+			<h2 class="text-sm md:text-xl font-semibold">{role} — {company}</h2>
 		</div>
-		<p class="text-sm text-white/80">
+		<p class="text-xs md:text-sm text-white/80">
 			{formatDate(startDate)} - {formatDate(endDate)} ·
 			{formatDuration(startDate, endDate)}
 		</p>
-		<p class="text-white/80">{description}</p>
+		<p class="text-xs md:text-sm text-white/80">{description}</p>
 	</div>
 </div>
 
@@ -56,5 +56,17 @@
 		background: var(--background);
 		border: 1px solid #ffffff;
 		box-sizing: border-box;
+	}
+
+	@media (max-width: 600px) {
+		.dot {
+			width: 16px;
+			height: 16px;
+		}
+
+		.dot-layer {
+			width: 32px;
+			height: 32px;
+		}
 	}
 </style>
