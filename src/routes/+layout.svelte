@@ -2,12 +2,10 @@
 	import { page } from '$app/state';
 
 	import Navbar from '$lib/components/common/nav-bar/Navbar.component.svelte';
-	import favicon from '$lib/assets/favicon.svg';
+	import favicon from '$lib/assets/favicon.ico';
 	import '../app.css';
 
 	let { children } = $props();
-
-	console.log(page);
 </script>
 
 <svelte:head>
