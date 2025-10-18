@@ -8,6 +8,7 @@ body {
 @layer base {
 	:root {
 		--background: #101111;
+		--background-secondary: #151515;
 		--gradient-1: #7a87fa;
 		--gradient-2: #fed39c;
 	}
