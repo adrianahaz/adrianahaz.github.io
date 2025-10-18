@@ -17,6 +17,6 @@
 
 		<Menu />
 
-		<Button as="a" label="Resume" class="hidden lg:inline-block" />
+		<Button type="primary" label="Resume" class="hidden lg:inline-block" />
 	</div>
 </nav>
