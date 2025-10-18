@@ -18,12 +18,12 @@
 			Hello, I'm Adrian &#128075;
 		</h1>
 
-		<p class=" text-gray-300 max-w-lg text-center">
+		<p class="text-gray-300 max-w-lg text-center">
 			Tech enthusiast, lifelong learner, and creative student. I love to explore new technologies
 			and create innovative solutions.
 		</p>
 
-		<Button label="Hire me" as="a" href="mailto:adrianalzidan35@gmail.com" />
+		<Button label="Hire me" type="primary" href="mailto:adrianalzidan35@gmail.com" />
 	</div>
 </div>
 

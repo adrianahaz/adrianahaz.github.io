@@ -43,7 +43,7 @@
 			{/each}
 			<hr />
 			<li>
-				<Button as="a" label="Resume" />
+				<Button type="primary" label="Resume" />
 			</li>
 		</div>
 	</div>
