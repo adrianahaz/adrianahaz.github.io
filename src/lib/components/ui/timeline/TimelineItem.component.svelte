@@ -18,7 +18,7 @@
 			{formatDate(startDate)} - {formatDate(endDate)} ·
 			{formatDuration(startDate, endDate)}
 		</p>
-		<p class="text-xs md:text-sm text-white/80">{description}</p>
+		<p class="text-sm text-white/80">{description}</p>
 	</div>
 </div>
 
