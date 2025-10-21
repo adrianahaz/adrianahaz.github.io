@@ -6,13 +6,15 @@
 	import '../app.css';
 
 	let { children } = $props();
+
+	let hideNavbar = page.url.pathname.startsWith('/blog') || page.error;
 </script>
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
-{#if !page.error}
+{#if !hideNavbar}
 	<Navbar />
 {/if}
 

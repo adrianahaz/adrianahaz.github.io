@@ -4,6 +4,10 @@
 	import Button from '$lib/components/ui/button/Button.component.svelte';
 </script>
 
+<svelte:head>
+	<title>{page.status} - {page.error?.message ?? 'Something went wrong!'}</title>
+</svelte:head>
+
 <main class="h-[100vh] min-w-full flex justify-center items-center px-6 py-24 sm:py-32 lg:px-8">
 	<div class="text-center">
 		<p class="text-base font-semibold text-indigo-400">{page.status}</p>
@@ -14,7 +18,7 @@
 			Sorry, we couldn’t find the page you’re looking for.
 		</p>
 		<div class="mt-10 flex items-center justify-center gap-x-6">
-			<Button as="a" href="/" label="Go back home" />
+			<Button type="primary" href="/" label="Go back home" />
 			<a href="mailto:adrhmdbusiness@gmail.com" class="text-sm font-semibold text-white"
 				>Contact support <span aria-hidden="true">&rarr;</span></a
 			>
