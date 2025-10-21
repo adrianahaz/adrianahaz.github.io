@@ -1,7 +1,7 @@
 const navItems = [
 	{ label: 'Home', href: './', icon: 'Home' },
-	{ label: 'Blog', href: './blog' },
-	{ label: 'Gallery', href: './gallery' },
+	{ label: 'Blog', href: '#' },
+	{ label: 'Gallery', href: '#' },
 	{ label: 'Contact me', href: '#contact' }
 ];
 
