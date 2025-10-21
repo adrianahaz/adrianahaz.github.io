@@ -4,7 +4,7 @@ const projects = [
 		img: '/img/daily-dua.jpg',
 		description:
 			'A website that contains a collection of daily prayers based on the sunnah taught by the Prophet Muhammad (peace be upon him).',
-		taglines: ['HTML', 'CSS', 'JavaScript', 'SCSS'],
+		taglines: ['JS', 'AJAX', 'SCSS'],
 		repository: 'https://github.com/myynxlazz/daily-dua',
 		demo: 'https://daily-dua-omega.vercel.app/'
 	},
@@ -13,7 +13,7 @@ const projects = [
 		img: '/img/makan-kuy.jpg',
 		description:
 			'A web application for searching restaurants and viewing their details, such as menu, reviews, address.',
-		taglines: ['HTML', 'CSS', 'JavaScript', 'SCSS', 'API', 'PWA'],
+		taglines: ['AJAX', 'PWA', 'SCSS'],
 		repository: 'https://github.com/myynxlazz/restaurant-app-dicoding',
 		demo: 'https://makankuy-restaurant-app.netlify.app/'
 	},
@@ -30,12 +30,28 @@ const projects = [
 
 const assignment = [
 	{
+		name: 'Tugas Pertemuan 2',
+		img: '/img/pertemuan-3.jpg',
+		description: 'Membuat halaman web dan mempelajari tentang dasar format text sederhana.',
+		taglines: ['HTML'],
+		repository: 'https://github.com/adrianahaz/pemrograman-web-1/tree/main/pertemuan-2',
+		demo: 'https://adrianahaz.github.io/pemrograman-web-1/pertemuan-2/'
+	},
+	{
 		name: 'Tugas Pertemuan 3',
 		img: '/img/pertemuan-3.jpg',
 		description: 'Membuat halaman web dan mempelajari tentang dasar format text sederhana.',
 		taglines: ['HTML'],
 		repository: 'https://github.com/adrianahaz/pemrograman-web-1/tree/main/pertemuan-3',
 		demo: 'https://adrianahaz.github.io/pemrograman-web-1/pertemuan-3/'
+	},
+	{
+		name: 'Tugas Pertemuan 5',
+		img: '/img/pertemuan-6.jpg',
+		description: 'Mempelajari tentang hyperlink dan membuat halaman portfolio sederhana.',
+		taglines: ['HTML', 'List'],
+		repository: 'https://github.com/adrianahaz/pemrograman-web-1/tree/main/pertemuan-5',
+		demo: 'https://adrianahaz.github.io/pemrograman-web-1/pertemuan-5/'
 	},
 	{
 		name: 'Tugas Pertemuan 6',
