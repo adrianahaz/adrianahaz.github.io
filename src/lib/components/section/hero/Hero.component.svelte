@@ -1,5 +1,11 @@
 <script>
 	import Button from '$lib/components/ui/button/Button.component.svelte';
+	import Badge from '$lib/components/ui/badge/Badge.component.svelte';
+
+	let { heroContent } = $props();
+
+	const hero = heroContent[0];
+	const badges = heroContent[1];
 </script>
 
 <div
@@ -15,17 +21,23 @@
 		class="md:w-[55%] md:mt-[80px] flex flex-col items-center bg-[#101111] p-[30px] md:p-[40px] gap-5"
 	>
 		<h1 class="text-2xl md:text-4xl max-w-3xl leading-tight text-center">
-			Hello, I'm Adrian &#128075;
+			{hero.heading}
 		</h1>
 
 		<p class="text-gray-300 max-w-lg text-center">
-			Tech enthusiast, lifelong learner, and creative student. I love to explore new technologies
-			and create innovative solutions.
+			{hero.description}
 		</p>
 
-		<Button label="Hire me" type="primary" href="mailto:adrianalzidan35@gmail.com" />
+		<Button
+			label="Hire me"
+			type="primary"
+			href="mailto:adrianalzidan35@gmail.com"
+			target="_blank"
+		/>
 	</div>
 </div>
+
+<Badge {badges} />
 
 <style>
 	@media (max-width: 768px) {
