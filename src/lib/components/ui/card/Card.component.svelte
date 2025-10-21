@@ -24,8 +24,14 @@
 		<p class="text-sm">{description}</p>
 
 		<div class="flex justify-center gap-5">
-			<Button type="secondary" label="Repository" class="md:w-[40%]" href={repository} />
-			<Button type="primary" label="Demo" class="md:w-[40%]" href={demo} />
+			<Button
+				type="secondary"
+				label="Repository"
+				class="md:w-[40%]"
+				href={repository}
+				target="_blank"
+			/>
+			<Button type="primary" label="Demo" class="md:w-[40%]" href={demo} target="_blank" />
 		</div>
 	</div>
 </div>
