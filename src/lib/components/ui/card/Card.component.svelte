@@ -6,8 +6,8 @@
 	let newTaglines = limitTagline(taglines, 2);
 </script>
 
-<div class="bg-[var(--background-secondary)] p-5 rounded-l flex flex-col gap-3">
-	<img src={img} alt={name} class="rounded-l" />
+<div class="bg-[var(--background-secondary)] p-5 rounded-lg flex flex-col gap-3">
+	<img src={img} alt={name} class="rounded-lg" />
 
 	<div class="flex flex-col gap-4">
 		<h3>{name}</h3>
@@ -21,7 +21,7 @@
 			{/each}
 		</div>
 
-		<p class="text-sm">{description}</p>
+		<p class="text-sm min-h-[40px]">{description}</p>
 
 		<div class="flex justify-center gap-5">
 			<Button
