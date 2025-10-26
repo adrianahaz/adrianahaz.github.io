@@ -5,7 +5,7 @@
 
 	let { projects, assignments } = $props();
 	let currentSlide = $state(0);
-	let sliderName = ['Assignments', 'Projects'];
+	let sliderName = ['Projects', 'Assignments'];
 </script>
 
 <section class="px-[20px] py-[40px] md:px-[100px] md:py-[75px] flex flex-col gap-10">
@@ -19,12 +19,12 @@
 
 		<div class="grid md:grid-cols-3 gap-3">
 			{#if currentSlide === 0}
-				{#each assignments as assignment}
-					<Card {...assignment} />
-				{/each}
-			{:else}
 				{#each projects as project}
 					<Card {...project} />
+				{/each}
+			{:else}
+				{#each assignments as assignment}
+					<Card {...assignment} />
 				{/each}
 			{/if}
 		</div>
