@@ -23,6 +23,12 @@
 
 		<Menu items={navItems} />
 
-		<Button type="primary" label="Resume" class="hidden lg:inline-block" />
+		<Button
+			type="primary"
+			label="Resume"
+			class="hidden lg:inline-block"
+			href="https://drive.google.com/file/d/1wl9i6r4i7JP-uLSBUCb8Es81xO0XtTFi/view?usp=sharing"
+			target="_blank"
+		/>
 	</div>
 </nav>
