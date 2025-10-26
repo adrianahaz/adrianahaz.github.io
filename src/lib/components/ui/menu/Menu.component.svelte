@@ -35,7 +35,12 @@
 			{/each}
 			<hr />
 			<li>
-				<Button type="primary" label="Resume" target="_blank" />
+				<Button
+					type="primary"
+					label="Resume"
+					href="https://drive.google.com/file/d/1wl9i6r4i7JP-uLSBUCb8Es81xO0XtTFi/view?usp=sharing"
+					target="_blank"
+				/>
 			</li>
 		</ul>
 	</div>
