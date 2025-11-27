@@ -1,6 +1,6 @@
 <script>
 	import { getAllExperience } from '$lib/data/experience.js';
-	import { getAllProjects, getAllAssignments } from '$lib/data/projects.js';
+	import { getAllProjects } from '$lib/data/projects.js';
 	import { getAllHeroContent } from '$lib/data/base.js';
 
 	import Hero from '$lib/components/section/hero/Hero.component.svelte';
@@ -12,7 +12,6 @@
 	const heroContent = getAllHeroContent();
 	let experiences = getAllExperience();
 	let projects = getAllProjects();
-	let assignments = getAllAssignments();
 </script>
 
 <svelte:head>
@@ -30,7 +29,7 @@
 
 <Experience {experiences} />
 
-<Project {projects} {assignments} />
+<Project {projects} />
 
 <Contact />
 
